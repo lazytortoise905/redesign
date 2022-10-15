@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+        <div class="header">
+            <h1 class="title">Responsive Redesign</h1>
+        </div>
+        <div class="item">
+            <p>
+                The website I have chosen to redesign is the <strong>Beacon Inn</strong> - a hotel in Brookline, MA.
+            </p>
+            <p>
+                I have stayed at this hotel multiple times and I love the people that work here; however, I do not think
+                their website is easy to use or particulary appealing.
+            </p>
+            <div class="image-wrapper">
+                <img src="./beacon_og.png" alt="original website">
+                <a href="https://beaconinn.com/">Beacon Inn</a>
+            </div>
+        </div>
+        <div class="item">
+            <h2>Learnability</h2>
+            <p>The website is not easy to learn because it is not intuitive. Why is there a "rooms" page and a "reservations" page? Users
+            who are looking to quickly make a reservation will not immediately understand why both of those pages are necessary. This functionality
+            should be front and center on the home page. It appears as though the rooms page is meant to be a display of the available rooms and the 
+            reservations page is designed for users to actually book them, but their functionality overlaps far too much. This website would be 
+            much easier to follow if the home page was where users could being booking rooms. The small section for booking on the bottom of the
+            home page does not show any information other than a calendar, and there is somehow exposed html code below the form. The about us page
+            is also very confusing because there is so much content below the main picture in the original site which seems like it is the about us
+            page; but there is another page with even more text. This is confusing.
+            </p>
+            <h2>Memorability</h2>
+            <p>Instead of having the main functionality of a hotel booking app on the front page, the user is forced to navigate between different
+            pages to see their options and book a room. This makes every experience more difficult than it needs to be, and they are forced to
+            remember how to navigate the whole site as opposed to one simple page.
+            </p>
+            <h2>Efficiency</h2>
+            <p>People use website of hotels to get clear pricing, room overviews, and reservations. The convoluted nature of the navigation bar combined
+            with the fact that most of the information on the site is dated and insignificant makes these simple tasks more complicated than they need to be.
+            Additionally, without an account system users do not have the very efficient option of remaking previous booking. There is also random segments
+            of text in the paragraphs that follow the main picture of the original site. This is confusing and furthers the convolution of the site.
+            </p>
+        </div>
+        <div class="item">
+            <h2>Accessibility</h2>
+            <p>Using <strong>WebAIM WAVE</strong> to analyze the pages on this site, the most common error thrown was related to the <strong>contrast</strong> of the site. I agree with this:
+            the maroon background demands attentions and makes the text stand out a lot less than it would on a more neutral site. This points to a change I will implement
+            in the redesign: inverting the color scheme. It would make much more sense to have a neutral white background with maroon and gold undertones, as opposed to the other
+            way around.
+            </p>
+            <p>This site also highlighted issues with <strong>reduntant links</strong> - the big Beacon Inn logo links to the home page, as does the "Home" button. This is not necessary and I will
+            implement this change as well.
+            </p>
+            <p>Finally, this tool also highlighted numerous <strong>missing labels</strong> - errors which will make screenreaders far less effective - which will make the site less accessible to
+            disabled users.
+            </p>
+        </div>
+        <div class="item">
+            <h2>Desktop Low-Fi</h2>
+            <div class="image-wrapper">
+                <img src="./low-fi-desk-1.png" alt="first page of low-fi desktop prototype">
+            </div>
+            <br>
+            <div class="image-wrapper">
+                <img src="./low-fi-desk-2.png" alt="second page of low-fi desktop prototype">
+            </div>
+        </div>
+        <div class="item">
+            <h2>Tablet Low-Fi</h2>
+            <div class="image-wrapper">
+                <img src="./low-fi-tablet-1.png" alt="first page of low-fi tablet prototype">
+            </div>
+            <br>
+            <div class="image-wrapper">
+                <img src="./low-fi-tablet-2.png" alt="second page of low-fi tablet prototype">
+            </div>
+
+        </div>
+        <div class="item">
+            <h2>Mobile Low-Fi</h2>
+            <div class="image-wrapper">
+                <img src="./low-fi-mobile.png" alt="low-fi mobile prototype">
+            </div>
+        </div>
+        <div class="item">
+            <h2>Style Guide</h2>
+            <div class="image-wrapper">
+                <img src="./style-guide.png" alt="visual style guide">
+            </div>
+        </div>
+        <div class="item">
+            <h2>Desktop High-Fi</h2>
+            <div class="image-wrapper">
+                <img src="./high-fi-desk-1.png" alt="first page of high-fi desktop prototype">
+            </div>
+            <br>
+            <div class="image-wrapper">
+                <img src="./high-fi-desk-2.png" alt="second page of high-fi desktop prototype">
+            </div>
+        </div>
+        <div class="item">
+            <h2>Tablet High-Fi</h2>
+            <div class="image-wrapper">
+                <img src="./high-fi-tablet-1.png" alt="first page of high-fi tablet prototype">
+            </div>
+            <br>
+            <div class="image-wrapper">
+                <img src="./high-fi-tablet-2.png" alt="second page of high-fi tablet prototype">
+            </div>
+
+        </div>
+        <div class="item">
+            <h2>Mobile High-Fi</h2>
+            <div class="image-wrapper">
+                <img src="./high-fi-mobile.png" alt="high-fi mobile prototype">
+            </div>
+        </div>
+        <div class="item">
+            <h2>Redesign</h2>
+            <div class="image-wrapper">
+                <a href="https://lazytortoise905.github.io/beacon-inn-redesign/">
+                    <img src="./redesign.png" alt="original website">
+                </a>
+                <a href="https://lazytortoise905.github.io/beacon-inn-redesign/">New Beacon Inn</a>
+            </div>
+        </div>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
+  </body>
+</html>
